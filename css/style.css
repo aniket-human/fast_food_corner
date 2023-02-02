@@ -1,0 +1,135 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.logo img{
+    width: 55px;
+    padding: 4px 8px;
+}
+
+.linkedin img{
+    width: 28px;
+    padding: 4px 8px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.navbar ul{
+    font-family: 'Itim', cursive;
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    padding: 3px 48px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+
+/* Home Section */
+
+.home-section{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+}
+
+.home-section::before{
+    content: '';
+    background: url(/media/other_img/home_bg.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 340px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.home-section div p{
+    padding: 2px 100px;
+}
+
+/* Services */
+
+#service_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 94px;
+    background-color: rgb(211, 30, 30);
+    height: 400px;
+}
+
+#service_section::before{
+    content: '';
+    /* background: url(/media/other_img/home_bg.jpeg) no-repeat center center/cover; */
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#service_section h1{
+    font-size: 30px;
+    padding: 11px;
+}
+
+.services{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+#service_section img{
+    height: 150px;
+}
+
+.service_box{
+    border: 4px solid burlywood ;
+    border-radius: 15px;
+    box-shadow: 9px 6px 5px;
+    background-color: burlywood;
+    margin: 8px;
+}
+
+body{
+    height: 111111px;
+}
