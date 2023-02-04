@@ -18,7 +18,7 @@ html{
 .linkedin img{
     width: 28px;
     padding: 0px 8px;
-    padding-left: 390px;
+    padding-left: 370px;
 }
 
 .navbar{
@@ -59,6 +59,7 @@ html{
 
 .navbar div li a:hover{
     color: red;
+    transform: scale(1.2);
 }
 
 /* Home Section */
@@ -94,10 +95,10 @@ html{
 
 /* Menu Section */
 
-#menu-section{
+/* #menu-section{
     display: flex;
     flex-direction: column;
-}
+} */
 
 #menu-section h1{
     display: block;
@@ -142,17 +143,8 @@ html{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin-top: 94px; */
     background-color: rgb(211, 30, 30);
     height: 400px;
-}
-
-#service_section::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.8;
 }
 
 #service_section h1{
@@ -181,6 +173,67 @@ html{
     margin: 8px;
 }
 
-body{
-    height: 11111px;
-}
+/* Delivery Patners */
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  #slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+  }
+  
+  #slider::before,
+  #slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: -1;
+  }
+  
+  #slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  #slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  #slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex; 
+    width: calc(250px * 14); 
+  }
+  
+  #slider .slide {
+    height: 100px;
+    width: 250px;
+  } 
+
+    body {
+    align-items: center;
+    background: #E3E3E3;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  } 
+
+  body{
+    height:111111px ;
+  }
