@@ -5,7 +5,7 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 /* Navbar */
@@ -95,11 +95,6 @@ html{
 
 /* Menu Section */
 
-/* #menu-section{
-    display: flex;
-    flex-direction: column;
-} */
-
 #menu-section h1{
     display: block;
     font-size: 30px;
@@ -175,7 +170,7 @@ html{
 
 /* Delivery Patners */
 
-  @keyframes scroll {
+  /* @keyframes scroll {
     0% {
       transform: translateX(0);
     }
@@ -232,7 +227,7 @@ html{
     display: flex;
     height: 100vh;
     justify-content: center;
-  } 
+  }  */
 
   body{
     height:111111px ;
