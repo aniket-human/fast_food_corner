@@ -1,1 +1,20 @@
-Work Under Progress !!!
+Hello All 
+
+This is Aniket Kumar Jha from New Delhi India . A passionate Learner . Currently trying knowledge of web developement into projects and creating some cool projects to learn and clear concepts of web development. 
+
+In this project ,I have created a fast Food Centre . A cafe/cntre which provides fast foods and also available on leading delivery apps . In this repository I have given HTML(index.html) and CSS(style.css) Files and provided all media used in making this site .
+
+Sections introduced in this website : 
+        1. Navigation Bar -- Sticky navigation bar with anchor tag link to website sections .
+        2. Home Section -- With details of Fast Food Centre and cnetred text.
+        3. Menu Section -- Centre Menu created with images and displayed it in scrolling mode.
+        4. Services Section -- Displaying services in the form of flex-boxes with some shadow effect.
+        5. Aslo Order from -- Added some leading food delivery apps The Fast Food Centre asscociated with.
+        6. Contact information & Contact Form -- Displayed Centre address and contact info also Created a basic form where user can enter Name ,Phone number and Query/Order and send to Centre. (Note : No Backend Tech involved) 
+        
+Tech Used : HTML and CSS 
+
+Note : I know this website still have some not so cool and buggy things so work is not over yet also It's not currently responsive but In future will update or create a new Fully-responsive fast food restaurant site So stay tune !!
+
+
+        
